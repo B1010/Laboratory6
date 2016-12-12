@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exersice10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string text = "удалить из строки все слова длина которых меньше пяти символов";
+            char[] separators = { ',', ' ', ';' };
+
+            string[] text_arr = text.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+            foreach (string item in text_arr)
+            {
+                if (item.Length < 3) text = text.Replace(item, "-");
+            }
+            Console.WriteLine(text);
+        }
+    }
+}
