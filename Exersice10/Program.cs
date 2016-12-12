@@ -10,7 +10,7 @@ namespace Exersice10
     {
         static void Main(string[] args)
         {
-            string text = "удалить из строки все слова длина которых меньше пяти символов";
+            string text = "удалить из строки все слова длина которых меньше трёх символов";
             char[] separators = { ',', ' ', ';' };
 
             string[] text_arr = text.Split(separators, StringSplitOptions.RemoveEmptyEntries);
