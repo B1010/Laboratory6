@@ -6,10 +6,13 @@ namespace Exersice2
     {
         static void Main(string[] args)
         {
-            string s = "мама";
-            string p = "а";
-            int k=0;
+            Console.WriteLine("Введите предложение");
+            string s = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("Введите символ");
+            string p = Convert.ToString(Console.ReadLine());
+            int k =0;
             k=s.IndexOf(p);
+
             if (k != -1)
             {
                 for (int i=0; i<=s.Length - 1; i++)
