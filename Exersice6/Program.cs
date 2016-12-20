@@ -8,7 +8,7 @@ namespace Exersice6
         {
             char[] separators = { ',', ' ', ';' };
 
-            Console.Write("Введите предложение, в котором необходимо выполнить преобразования: ");
+            Console.WriteLine("Введите предложение, в котором необходимо выполнить преобразования: ");
             string words = Console.ReadLine();
             string[] iwords = words.Split(separators, StringSplitOptions.RemoveEmptyEntries);
             Array.Reverse(iwords);

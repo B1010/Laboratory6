@@ -7,24 +7,24 @@ namespace Exersice2
         static void Main(string[] args)
         {
             Console.WriteLine("Введите предложение в котором необходимо отобразить предыдущий и последующий:");
-            string s = Convert.ToString(Console.ReadLine());
+            string text = Convert.ToString(Console.ReadLine());
             Console.Write("Введите символ: ");
-            string p = Convert.ToString(Console.ReadLine());
-            int k =0;
-            k=s.IndexOf(p);
+            string symbol = Convert.ToString(Console.ReadLine());
+            int temp =0;
+            temp=text.IndexOf(symbol);
 
-            if (k != -1)
+            if (temp != -1)
             {
-                for (int i=0; i<=s.Length - 1; i++)
+                for (int i=0; i<=text.Length - 1; i++)
                 {
-                    if (s.Substring(i, 1) == p)
+                    if (text.Substring(i, 1) == symbol)
                     {
-                        if (i==0) Console.WriteLine("Последующий символ: " + s.Substring(i + 1, 1));
-                        if (i==s.Length - 1) Console.WriteLine("Предыдущий символ: " + s.Substring(i - 1, 1));
-                        if ((i!=0)&&(i!=s.Length - 1))
+                        if (i==0) Console.WriteLine("Последующий символ: " + text.Substring(i + 1, 1));
+                        if (i==text.Length - 1) Console.WriteLine("Предыдущий символ: " + text.Substring(i - 1, 1));
+                        if ((i!=0)&&(i!=text.Length - 1))
                         {
-                            Console.WriteLine("Предыдущий символ: " + s.Substring(i - 1, 1));
-                            Console.WriteLine("Последующий символ: " + s.Substring(i + 1, 1));
+                            Console.WriteLine("Предыдущий символ: " + text.Substring(i - 1, 1));
+                            Console.WriteLine("Последующий символ: " + text.Substring(i + 1, 1));
                         }
                     }
                 }
