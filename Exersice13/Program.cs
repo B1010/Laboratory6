@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Exersice13
 {
@@ -38,5 +35,6 @@ namespace Exersice13
             }
             string str = strB.ToString();
         }
+        Console.ReadLine();
     }
 }

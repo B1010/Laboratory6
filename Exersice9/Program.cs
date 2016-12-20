@@ -21,6 +21,7 @@ namespace Exersice9
             {
                 Console.WriteLine("Подстрока не найдена");
             }
+            Console.ReadLine();
         }
     }
 }

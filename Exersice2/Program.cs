@@ -6,9 +6,9 @@ namespace Exersice2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите предложение");
+            Console.WriteLine("Введите предложение в котором необходимо отобразить предыдущий и последующий:");
             string s = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("Введите символ");
+            Console.Write("Введите символ: ");
             string p = Convert.ToString(Console.ReadLine());
             int k =0;
             k=s.IndexOf(p);
@@ -30,7 +30,7 @@ namespace Exersice2
                 }
             }
             else Console.WriteLine("Такого символа нет");
-
+            Console.ReadLine();
         }
     }
 }

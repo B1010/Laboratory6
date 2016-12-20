@@ -55,6 +55,7 @@ namespace Exersice3
             {
                 Console.WriteLine("Совпадений не найдено!");
             }
+            Console.ReadLine();
         }
     }
 }

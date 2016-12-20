@@ -6,12 +6,14 @@ namespace Exersice11
     {
         static void Main(string[] args)
         {
-            string phoneNumber = "+7 495 123-45-67";
+            Console.WriteLine("Введите мобильный номер телефона в котором надо найти номер АТС:");
+            string phoneNumber = Console.ReadLine();
             char[] separators = { ',', ' ', ';', '-', '+' };
 
             string[] phoneNumber_arr = phoneNumber.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
             Console.WriteLine("Номер ATC: {0}", phoneNumber_arr[2]);
+            Console.ReadLine();
         }
     }
 }

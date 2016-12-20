@@ -14,7 +14,7 @@ namespace Exersice8
             int countDigits = Regex.Matches(str, @"\d").Count;
 
             Console.WriteLine("Цифры: {1}\nЗнаки: {0}\n", countZnaki, countDigits);
-            Main();
+            Console.ReadLine();
         }
     }
 }

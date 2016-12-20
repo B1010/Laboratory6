@@ -24,14 +24,4 @@ namespace Exersice7
                 }
             }
             Console.ReadKey();
-        }
-        static void cur()
-        {
-
-        }
-        static void lat()
-        {
-
-        }
-    }
 }
