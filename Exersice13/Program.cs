@@ -17,6 +17,7 @@ namespace Exersice13
 
             Console.WriteLine("Выполнение String заняло: {0}", time0_0);
             Console.WriteLine("Выполнение StringBuilder заняло: {0}", time1_1);
+            Console.ReadLine();
         }
         public static void strA()
         {
@@ -35,6 +36,5 @@ namespace Exersice13
             }
             string str = strB.ToString();
         }
-        Console.ReadLine();
     }
 }

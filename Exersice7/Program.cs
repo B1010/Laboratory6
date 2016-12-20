@@ -14,14 +14,16 @@ namespace Exersice7
             for (int i = 0; i < str.Length; i++)
             {
                 var index = abc.IndexOf(str[i]);
-				if (index + 1 <= 26)
-				{
-					Console.Write (abc [index + 26]);
-				}
+                if (index + 1 <= 26)
+                {
+                    Console.Write(abc[index + 26]);
+                }
                 else
                 {
                     Console.Write(abc[index - 26]);
                 }
             }
             Console.ReadKey();
+        }
+    }
 }
