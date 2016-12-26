@@ -9,6 +9,7 @@ namespace Exersice15
 
         static void Main(string[] args)
         {
+            //Кодирование и декодирование с использованием Шифра Виженера
             Console.Write("Введите строку: ");
             string texttoencode = Console.ReadLine();
             Console.Write("Введите ключ: ");
