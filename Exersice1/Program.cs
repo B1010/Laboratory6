@@ -9,18 +9,7 @@ namespace Exersice1
         {
             Console.WriteLine("Введите строку в которой необходимо подсчитать количество пробелов:");
             String istring = Console.ReadLine();
-
-            char[] jstring = istring.ToCharArray();
-            char[] filter = { ' ' };
-            int count = 0;
-
-            foreach (char tempfor in jstring)
-            {
-                if (filter.Contains(tempfor))
-                    count++;
-            }
-
-            Console.WriteLine("Количество пробелов: {0}", count);
+            Console.WriteLine("Количество пробелов: {0}", istring.Split(' ').Length - 1);
             Console.ReadKey();
         }
     }
