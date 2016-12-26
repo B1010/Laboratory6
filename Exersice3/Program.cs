@@ -10,7 +10,7 @@ namespace Exersice3
             int sovpad = 0;
             char[] separators = { ',', ' ', ';' };
 
-            Console.WriteLine("Ввседите 3 разный ФИО:");
+            Console.WriteLine("Ввседите 3 разных ФИО:");
             string ifam = Console.ReadLine().ToUpper();
             string jfam = Console.ReadLine().ToUpper();
             string lfam = Console.ReadLine().ToUpper();
