@@ -12,7 +12,7 @@ namespace Exersice3
             
             string search = " ИВАН ";
 
-            Console.WriteLine("Ввседите 3 разных ФИО:");
+            Console.WriteLine("Введите 3 разных ФИО:");
             for(int i=0; i<3; i++)
             {
                 family[i] = Console.ReadLine().ToUpper();

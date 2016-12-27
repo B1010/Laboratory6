@@ -7,10 +7,10 @@ namespace Exersice2
         static void Main(string[] args)
         {
             Console.WriteLine("Введите предложение в котором необходимо отобразить предыдущий и последующий:");
-            string text = Convert.ToString(Console.ReadLine());
+            string text = Console.ReadLine();
             Console.Write("Введите символ: ");
-            string symbol = Convert.ToString(Console.ReadLine());
-            int temp =0;
+            string symbol = Console.ReadLine();
+            int temp = 0;
             temp=text.IndexOf(symbol);
 
             if (temp != -1)
